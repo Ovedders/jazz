@@ -1,0 +1,324 @@
+
+@font-face {
+  font-family: "Univers LT W01 45 Light";
+  src: url("fonts/2b61512c-069e-4111-bb23-9a918f94a74d.eot?#iefix");
+  src: url("fonts/2b61512c-069e-4111-bb23-9a918f94a74d.eot?#iefix") format("eot"), url("fonts/ecf89914-1896-43f6-a0a0-fe733d1db6e7.woff") format("woff"), url("fonts/7628f343-8c36-4707-9559-8feb86c0462f.ttf") format("truetype"), url("fonts/11b816e7-d678-48dd-bc75-560de9c19049.svg#11b816e7-d678-48dd-bc75-560de9c19049") format("svg");
+}
+
+@font-face {
+  font-family: "Univers LT W01 55 Roman";
+  src: url("fonts/b5c30ea8-0700-4fd2-aa12-cc45074693a9.eot?#iefix");
+  src: url("fonts/b5c30ea8-0700-4fd2-aa12-cc45074693a9.eot?#iefix") format("eot"), url("fonts/7b95cb9a-a288-4405-97a0-13095f56a903.woff") format("woff"), url("fonts/c7481806-4ea4-40db-a623-7bc352bbbe43.ttf") format("truetype"), url("fonts/ac8280da-3de5-456d-bd77-8f01665452a9.svg#ac8280da-3de5-456d-bd77-8f01665452a9") format("svg");
+}
+
+@font-face {
+  font-family: "Univers LT W01 65 Bold";
+  src: url("fonts/db1c462f-8890-4a11-9de5-36872279e20a.eot?#iefix");
+  src: url("fonts/db1c462f-8890-4a11-9de5-36872279e20a.eot?#iefix") format("eot"), url("fonts/b993da84-c1f6-474a-8f00-8aa797b3de8f.woff") format("woff"), url("fonts/58403ef6-4c15-4280-b4b6-9acf50804f4f.ttf") format("truetype"), url("fonts/9178e351-95c5-4913-9eeb-fd0645a18c2d.svg#9178e351-95c5-4913-9eeb-fd0645a18c2d") format("svg");
+}
+
+
+html {
+  font-family: "Univers LT W01 45 Light";
+    font-size: 14px;
+    line-height: 20px;
+    color: #08584C;
+}
+
+body {
+  background-color: #079578;
+}
+
+a,
+a:visited {
+  color: #08584C;
+  font-family: "Univers LT W01 65 Bold";
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #079578;
+}
+
+
+
+.header {
+  height: 65px;
+  width: 580px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 50px;
+}
+
+.linkbox {
+  display: inline-block;
+  font-size: 18px;
+  padding: 40px 0 10px 20px;
+  height: 50px;
+  width: 235px;
+}
+
+.firefox-link:hover,
+.chrome-link:hover {
+  background-color: #CACACA;
+  color: #08584C;
+}
+
+/* Navigation */
+.menu {
+  /* position: fixed;*/
+  overflow: hidden;
+  /*left: 0px;*/
+  top: 0px;
+  height: auto;
+  z-index: 100;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  margin: 30px 0;
+  width: 50%;
+  height: auto;
+}
+
+#nav {
+  /*text-align: left;
+  margin: 30px 0 0 0;*/
+  left: 0px;
+  background-color: #eeeeee;
+  bottom: 0px;
+  margin: 0px;
+  float: left;
+  position: absolute;
+  max-width: 280px;
+  min-width: 280px;
+  width: 280px;
+}
+.navigation {
+  list-style: none;
+  position: fixed;
+  overflow: hidden;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 230px;
+  height: 1736px;
+  background-image: url(../img/nav_bg.png);
+  background-position: -580px -215px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  display: block;
+  padding: 0px;
+  padding-left: 40px;
+}
+
+.navigation li {
+  position: relative;
+  display: block;
+  line-height: 36px;
+  font-family: "Univers LT W01 45 Light";
+  font-weight: normal;
+}
+
+.navigation li a {
+  color: #08684c;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  cursor: pointer;
+  color: #0e926d;
+  text-decoration: underline;
+}
+
+.navigation li a:active {
+  cursor: pointer;
+  color: #0e926d;
+  text-decoration: underline;
+}
+
+.navigation .active {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0e926d !important;
+  text-decoration: underline;
+}
+
+.menuheader {
+  font-size: 14px;
+  font-family: "Univers LT W01 65 Bold";
+  font: 14px "Univers LT W01 65 Bold";
+  color: #08584c;
+  font-weight: normal;
+}
+
+.menulink a {
+  font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  font: 18px "Univers LT W01 55 Roman";
+  font-weight: normal;
+}
+
+.menulink a:active {
+  font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  font: 18px "Univers LT W01 55 Roman";
+  font-weight: normal;
+}
+
+
+.link a {
+  font-size: 14px;
+  color: #FFF;
+  font-family: "Univers LT W01 65 Bold";
+  line-height: 22px;
+  font-weight: normal;
+}
+
+.link a:hover {
+  border-bottom: 1px solid white;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+
+.kerning {
+  letter-spacing: 0px;
+}
+
+
+.download a {
+  color: #0691b0 !important;
+  text-decoration: none;
+  font-family: "Univers LT W01 55 Roman";
+  font-size: 12px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.download a:hover {
+  color: #0e926d !important;
+  text-decoration: none;
+  font-family: "Univers LT W01 55 Roman";
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* DOWNLOAD PADDING */
+.top25 {
+  padding-top: 25px;
+}
+
+/* SHARE PADDING */
+.top15 {
+  padding-top: 15px;
+}
+
+/* SHARE ICON */
+.share {
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon_sprite.png) 0px -22px;
+  cursor: pointer;
+}
+/* SHARE HOVER STATE */
+.share:hover {
+  background: url(../img/icon_sprite.png) -25px -22px;
+}
+
+/* FACEBOOK ICON */
+.fshare {
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon_sprite.png) 0px 46px;
+}
+
+/* TWITTER SHARE ICON */
+.tshare {
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon_sprite.png) 0px 20px;
+}
+
+/* LEADERSHIP BG IMAGE WRAP */
+.iwrap {
+  margin-left:15px
+  background-image: url(../img/slides/leadership_bg.jpg);
+  background-repeat: no-repeat;
+  z-index: 200;
+}
+/* LEADERSHIP UPPERCASE TITLE */
+.upper {
+  text-transform: uppercase;
+}
+
+/* SHAREHOLDER'S LETTER QUOTE */
+.letter-quote {
+  font-size: 16px;
+  color: white;
+  font-family: "Univers LT W01 55 Roman";
+  line-height: 24px;
+  font-weight: normal;
+}
+
+/* SHAREHOLDER'S LETTER PARAGRAPH */
+.letter-p {
+  font-size: 12px;
+  color: white;
+  font-family: "Univers LT W01 45 Light";
+  line-height: 18px;
+  font-weight: normal;
+}
+
+/* SHAREHOLDER'S SPAN */
+.letter-p span {
+  font-size: 12px;
+  color: white;
+  font-family: "Univers LT W01 65 Bold";
+  line-height: 18px;
+  font-weight: normal;
+}
+
+/* SHAREHOLDER'S TITLE */
+.letter-title {
+  font-size: 16px;
+  color: white;
+  font-family: "Univers LT W01 65 Bold";
+  font-weight: normal;
+  margin: 1.33em 0px 0px;
+}
+
+/* SHAREHOLDER'S LETTER  */
+.letter-lg-p {
+  font-size: 14px;
+  color: white;
+  font-family: "Univers LT W01 55 Roman";
+  line-height: 22px;
+  font-weight: normal;
+}
+
+/* SHAREHOLDER'S LETTER TOP PADDING 40 */
+.top40 {
+  padding-top: 40px;
+}
+
+/* SHAREHOLDER'S LETTER PADDING 25 FOR DEAR SHAREHOLDERS */
+.top25 {
+  padding-top: 25px;
+}
+
+
+
+
+
