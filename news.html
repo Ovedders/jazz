@@ -10,6 +10,68 @@
 	<link rel="stylesheet" href="css/simple-app.css">
 
 <style type="text/css">
+@import url("http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700");
+/* line 55, ../lib/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 63, ../lib/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 74, ../lib/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, ../lib/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, ../lib/_normalize.scss */
+html {
+  background: white;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 113, ../lib/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: "Univers LT W01 55 Roman";
+}
+
+
+.link a {
+  font-size: 14px;
+  color: #FFF;
+  font-family: "Univers LT W01 65 Bold";
+  line-height: 22px;
+  font-weight: normal;
+}
+/* line 237, ../lib/_font.scss */
+.link a:hover {
+  border-bottom: 1px solid white;
+}
 	
 .newsleft {
     float: left;
@@ -48,6 +110,143 @@
   height: 30px;
   z-index: 9999;
 }
+
+.jan img { 
+   position: relative; 
+   z-index:999; 
+}
+
+.jan h2 { 
+   position: absolute; 
+   top: 50px; 
+   left: 30%; 
+   width: 260px;
+   z-index: 9999; 
+}
+
+.jan h2 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 28px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+
+.jan p { 
+   position: absolute; 
+   top: 310 px; 
+   left: 30%; 
+   width: 260px;
+   z-index: 9999; 
+}
+
+.jan p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 12px;
+  font-family: "Univers LT W01 55 Roman";
+}
+
+
+.news2 h3 { 
+   position: absolute; 
+   top: 380px; 
+   left: 30%; 
+   width: 80px; 
+}
+
+.news2 h3 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 28px;
+  font-family: "Univers LT W01 55 Roman";
+}
+
+.news2 p { 
+   position: absolute; 
+   top: 419px; 
+   left: 30%; 
+   width: 150px; 
+}
+
+.news2 p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 12px;
+  font-family: "Univers LT W01 55 Roman";
+}
+
+
+.news3 h3 { 
+   position: absolute; 
+   top: 380px; 
+   left: 780px; 
+   width: 80px; 
+}
+
+.news3 h3 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 28px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+.news3 p { 
+   position: absolute; 
+   top: 420px; 
+   left: 780px; 
+   width: 120px; 
+}
+
+.news3 p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+  font-size: 12px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+
+.news4 h3 { 
+   position: absolute; 
+   top: 380px; 
+   left: 960px; 
+   width: 280px; 
+}
+
+.news4 h3 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 28px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+.news4 p { 
+   position: absolute; 
+   top: 420px; 
+   left: 960px; 
+   width: 180%; 
+}
+
+.news4 p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+  font-size: 12px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
 
 
 </style>
@@ -170,20 +369,40 @@
 <div class="swiper-wrapper">
 <div class="swiper-slide">
 <div class="page-inner">
+<div class="jan">
+<h2><span>Prologis establishes real estate
+investment trust in japan </span></h2>
+<p class="jan">
+<a class="link" href="http://ir.prologis.com/releasedetail.cfm?ReleaseID=732588" target="_blank">Read more</a>
+</p></div>
 
-<h2> JAN 10</h2>
-<img src="img/slides/news_jan10_bg_lines.jpg" style="margin-left:-110px; margin-top:-130px">
+<div class="news2">
+<h3><span>9.6M</span></h3>
+<p><span>square feet (890,000 SQM) of total space</span></p>
+</div>
+<div class="news3">
+<h3><span>$2B</span></h3>
+<p><span>(JPY 173B) in appraised value of assets</span></p>p
+</div>
+<div class="news4">
+<h3><span>3.4 Years</span></h3>
+<p><span>average weighted age of properties</span></p>
+</div>
 
 
 
 
-
-<!-- Jan 10 // End -->
-							</div>
+<img src="img/slides/news_jan10_bg_lines.jpg" style="margin-left:-110px; margin-top:-130px;"></div>
+			</div>
 						</div>
 					</div>
-				</div>
-			</div>
+					</div>
+					
+
+<!-- Jan 10 // End -->
+				
+			
+			
 
 <!-- JAN 22 START -->
 <div class="swiper-slide">
@@ -374,31 +593,6 @@
   })
 
 </script>
-
-
-
-0
-down vote
-accepted
-Every page should have all JavaScript, because:
-
-User may start on index, page1 or page2
-The first page loaded will be your "anchor page" (~ JQM calls it documentBase).
-User will never leave this page, unless (one way) you add data-ajax="false" to a link
-Subsequent pages the user visits will be fetched by JQM via AJAx and added to the existing DOM
-When doing so, JQM only inserts what is inside the first <div data-role="page"></div> of the page being loaded
-If you disable JQM hash-management you will see that going from:
-
-/foo/bar/index.html > /foo/bar/page1.html
-will switch the URL to
-
- /foo/bar/index.html#foo/bar/page1.html
-which JQM masks to
-
-  /foo/bar/page1.html
-Thus all <script> tags you place on pageX will not be loaded unless the user starts on this page.
-
-I suggest putting your js methods in a file and loading it along with the other JavaScript files you need. Put all files on all pages and you are good to go. Files will only be loaded on the first page, so the only problem will be how to mimimize first page load (when everything needs to be fetched - that's a different story)
 
 <!-- JS Scripts -->
 

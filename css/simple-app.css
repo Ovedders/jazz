@@ -55,7 +55,125 @@ margin-left: 275px;
 }
 .page-inner {
 	padding: 15px 20px;
+	height: 600px;
+	width: 600px;
 }
+
+.news1 h2 { 
+   position: absolute; 
+   top: 110px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news1 h2 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+.news2 h2 { 
+   position: absolute; 
+   top: 10px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news2 h2 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+.news2 p { 
+   position: absolute; 
+   top: 10px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news2 p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+
+.news3 h2 { 
+   position: absolute; 
+   top: 10px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news3 h2 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+.news3 p { 
+   position: absolute; 
+   top: 10px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news3 p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+
+.news4 h2 { 
+   position: absolute; 
+   top: 10px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news4 h2 span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+.news4 p { 
+   position: absolute; 
+   top: 10px; 
+   left: 70px; 
+   width: 100%; 
+}
+
+.news4 p span { 
+   color: #fff; 
+   letter-spacing: -1px;  
+   padding: 1px; 
+   font-size: 18px;
+  font-family: "Univers LT W01 55 Roman";
+  text-transform: uppercase;
+}
+
+
 
 #jan10 {
 background-image: url(img/slides/news_jan10_bg_lines.jpg) no=repeat;
